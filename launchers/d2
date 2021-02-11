@@ -1,0 +1,8 @@
+#!/bin/bash
+IDX=-1
+while [ $IDX -lt 20 ]; do
+  (( IDX=IDX + 1 ))
+  echo "==== d2 for ${SNAP_REVISION} is running: $IDX"
+  sleep 1
+done
+
