@@ -11,9 +11,9 @@ apps:
   d1:
     command: d1
     daemon: simple
-  d2:
-    command: d2
-    daemon: simple
+  #d2:
+    #command: d2
+    #daemon: simple
 
 parts:
   launchers:
